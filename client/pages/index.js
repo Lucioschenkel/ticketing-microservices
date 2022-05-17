@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 function LandingPage({ currentUser, tickets }) {
-  console.log(tickets);
+  console.log('Home started...');
 
   const ticketList = tickets.map((ticket) => (
     <tr key={ticket.id}>
