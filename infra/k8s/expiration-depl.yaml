@@ -26,3 +26,5 @@ spec:
               value: ticketing
             - name: REDIS_HOST
               value: expiration-redis-srv
+            - name: NODE_TLS_REJECT_UNAUTHORIZED
+              value: '0'
